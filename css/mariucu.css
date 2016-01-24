@@ -1,0 +1,191 @@
+/* bien perro code by https://github.com/padrisimo -->*/
+
+div.video{
+    display:flex;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+
+
+}
+
+ul{
+
+    text-align:center;
+    padding: 0px;
+}
+
+
+li a:hover{
+    color: black;
+}
+li a:focus{
+    color: black;
+}
+
+.foot a {
+    text-decoration: none;
+    color:#4f4f4f;
+
+}
+
+footer {
+    text-align: right;
+    margin-right: 1em;
+}
+
+
+li a {
+    color: white;
+    text-decoration: none;
+    margin:0 0 0.5em;
+    padding: 0 0.2em;
+    text-decoration: none;
+    padding: 0.4em;
+    background-color: #D43442;
+    color:#FFFFFF;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+
+
+}
+
+.menu {
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+        white-space:nowrap;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #D43442;
+
+}
+
+
+
+.mariucu img {
+    width:100%;
+    height: 100%;
+    min-width: 40%;
+    min-height: auto;
+    max-width:1600px;
+
+
+}
+
+.container{
+    padding: 0px;
+    width: 100%;
+    margin:0px 0;
+
+
+}
+body {
+    background: #1B1B1B;
+    font-family: 'Abel', sans-serif;
+}
+
+article{
+    color:#EDD6CC;
+    background-color: #1B1B1B;
+    padding: 1em;
+
+
+}
+.articulote {
+    overflow: hidden;
+    padding-top: 3em;
+    border-bottom: 1em solid #1B1B1B;
+}
+
+.oculto{
+    display: none;
+}
+
+.discos{
+    width: 100%;
+}
+
+.merch img{
+    width: 100%;
+}
+.articulote a{
+    text-decoration: none;
+    font-weight:500;
+    color: white;
+ }
+
+@media screen and (min-width: 768px) {
+
+.articulote a{
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+ }
+
+
+.articulote {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 0.4em;
+}
+
+iframe.ytb-embed {
+width:100%;
+max-height:"315px";
+margin: 0px auto;
+}
+
+img.discos{
+    float: left;
+    max-width: 200px;
+    margin: auto;
+    margin-right: 1em;
+}
+
+article {
+    color:black;
+    background-color: #EDD6CC;
+    padding: 1em;
+
+
+}
+
+.mariucu img {
+    max-width:1600px;
+
+
+}
+
+section.mariucu {
+    padding-left: 1em;
+    margin-top:4.6em;
+    vertical-align:top;
+    display:inline-block;
+    height: 100%;
+    max-width: 40%
+
+    }
+section.contenido {
+
+    margin-left: 1em;
+    margin-top:4.6em;
+    display: inline-block;
+    vertical-align:top;
+    width: 50%
+
+    }
+footer {
+    width: 50%;
+    text-align: right;
+    margin-right: 1em;
+    float:right;
+    }
+}
