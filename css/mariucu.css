@@ -188,8 +188,6 @@ section.contenido {
     }
 footer {
     width: 50%;
-    text-align: right;
-    margin-right: 1em;
-    float:right;
+    text-align: center;
     }
 }
